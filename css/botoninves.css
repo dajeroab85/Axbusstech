@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn{
+	 float:left;
+	 width:100%;
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+	 }
+
+.btn li{
+	float:left;
+	height:50px;
+	}
+.btn a{
+	float:left;
+	display:block;
+	background-image:url(../img/Botonera.png);
+	width:160px;
+	height:50px;
+	text-indent:-9999px;
+	}
+.btn_home a{
+	background-position: 0px 0px;
+	width:149px;
+	}	
+	
+.btn_who a{
+	background-position: -150px 0;
+	width:149px;
+	}
+	
+.btn_what a{
+	background-position: -300px 0px;
+	width:149px;
+	}
+	
+.btn_our a{
+	background-position: -450px 0px;
+	width:149px;
+	}
+	
+.btn_contact a{
+	background-position: -600px 0px;
+	width:149px;
+	}
+	
+.btn_invert a{
+	background-position: -1722px 0px;
+	width:215px;
+	}
+/*Part 2*/
+.btn_home a:hover{
+	background-position: -972px 0px;
+	}	
+.btn_who a:hover {
+	background-position: -1122px 0px;
+	}
+.btn_what a:hover {
+	background-position: -1272px 0px;
+	}
+.btn_our a:hover {
+	background-position: -1422px 0px;
+	}	
+.btn_contact a:hover {
+	background-position: -1572px 0px;
+	}	
+.btn_invert a:hover {
+	background-position: -1722px 0px;
+	}
